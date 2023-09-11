@@ -41,6 +41,7 @@ body {
   border-radius: 4px;
   padding: 8px 12px;
   position: absolute;
+  top: 100px;
 }
 
 .toggle:focus {
@@ -58,7 +59,6 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  background-color: #f0f0f0;
 }
 
 .needle {
@@ -69,6 +69,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -110,8 +111,9 @@ body {
 }
 
 .time {
-  font-size: 50px;
+  font-size: 60px;
 }
+
 .date {
   color: #aaa;
   font-size: 14px;
